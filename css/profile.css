@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+body {
+    font-family: sans-serif;
+    background: #1D976C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(150, 231, 255), rgb(156, 221, 241));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(147, 228, 249), rgb(155, 224, 233));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.image {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    border-radius: 20%;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+.module-inner {
+    background: rgb(156, 221, 241);
+}
+
+.module {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #2c66be;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #6384cc;
+    transition: all .2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background: #2a68af;
+    color: #ffffff;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 2%;
+}
+
+.content-panel {
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
